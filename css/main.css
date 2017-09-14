@@ -1,0 +1,439 @@
+* {
+    color: #000000;
+    font-family: "Myriad Pro";
+}
+
+section {
+    padding: 50px 0;
+}
+
+.header_intro {
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.left_part {
+    float: left;
+}
+
+.right_part {
+    float: right;
+}
+
+
+
+/*    NAV   */
+
+
+
+.bg-dark {
+    background-color: #fff!important;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #3CA2DD;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #3081b1;
+}
+
+
+.navbar-dark .navbar-toggler {
+    border-color: #b6b6b6;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../img/gumb_btn.png");
+}
+
+
+
+/*    HEADER    */
+
+
+
+header {
+    padding: 100px 0 30px;
+}
+
+.bg-primary {
+    background-color: #fff!important;
+}
+
+.site-name {
+    background-color: #3CA2DD !important;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Manuale', serif;
+    color: #fff;
+}
+
+.site-name h1 {
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.57);
+}
+
+.header-wrapper {
+    padding-top: 25px;
+}
+
+.header-wrapper .left_part {
+    background-image: url("../img/konst.jpg");
+    background-size: cover;
+    height: 426px;
+    margin-top: 70px;
+}
+
+.header-wrapper .right_part {
+    padding-left: 25px;
+}
+
+.header-wrapper .right_part p {
+    text-align: justify;
+}
+
+.header-wrapper ul li p {
+    text-align: left;
+}
+
+.event_header {
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 25px;
+}
+
+header .last_event .event {
+    float: left;
+    overflow: hidden;
+}
+
+.last_event {
+    padding-top: 10px;
+}
+
+
+
+.single_event {
+    padding: 15px;
+}
+
+.single_event p {
+    text-align: justify;
+}
+
+
+/*    About us    */
+
+
+
+#about {
+    padding-top: 25px;
+}
+
+.about_intro {
+    background-image: url("../img/project_2.png");
+    background-size: cover;
+    padding: 50px 25px;
+}
+
+.about_intro p, .paragraph {
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.paragraph {
+    padding-left: 35px;
+}
+
+.persons {
+    padding-top: 30px;
+}
+
+#about .persons .our_person a {
+    margin-right: 25px;
+}
+
+.persons .person_btn, .projects .btn_project {
+    background-color: #3CA2DD;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.persons .person_btn:hover, .projects .btn_project:hover {
+    background-color: #2b80ab;
+}
+
+.persons_file, .students_event, .ato_project {
+    padding-top: 100px;
+
+}
+
+.students_event, .ato_project {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main_person {
+    padding-bottom: 35px;
+}
+
+.our_person {
+    text-align: center;
+}
+
+.main_person .left_part h4 {
+    text-align: left!important;
+}
+
+.main_person .left_part p {
+    text-align: justify;
+}
+
+.main_person .right_part {
+    padding-top: 45px;
+    text-align: center;
+}
+
+.persons_file h4:first-child {
+    text-align: center;
+}
+
+.person_header {
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+.person_info {
+    padding: 15px 0;
+}
+
+.person_info p {
+    text-align: justify;
+}
+
+.person_img {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+
+/*    Projects   */
+
+
+
+#services {
+    background-color: #fff!important;
+    padding-bottom: 20px;
+}
+
+.projects_header {
+   background-image: url("../img/project_2.png");
+    background-size: cover;
+    padding: 50px 25px;
+}
+
+.projects_header p {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.projects {
+    padding-top: 40px;
+}
+
+.projects .single_project {
+    float: left;
+    text-align: center;
+
+}
+
+.projects .single_project .fa {
+    padding-bottom: 20px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects .btn_project {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.publish {
+    padding: 75px 30px 0;
+    text-align: center;
+}
+
+.publish a, .publish h4 {
+    display: block;
+}
+
+.each_publish {
+
+}
+
+
+
+.detail_projects {
+    padding-top: 100px;
+}
+
+.detail_projects p, .students_event p, .ato_project p {
+    text-align: justify;
+}
+
+.detail_projects .project_header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin: 30px 0;
+}
+
+.detail_projects a {
+    display: block;
+}
+
+.detail_projects a:last-child {
+    padding-bottom: 15px;
+}
+
+.event_img {
+    text-align: center;
+}
+
+.event_img img {
+    width: 400px;
+    height: 280px;
+    padding: 10px;
+}
+
+.detail_btn {
+    background-color: #3CA2DD;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    display: inline;
+    width: 110px;
+}
+
+.detail_btn:hover {
+    background-color: #2b80ab;
+    text-decoration: none;
+    color: #fff;
+}
+
+.info_about_centr {
+    padding-left: 20px;
+    margin: 10px 10px 25px;
+}
+
+
+
+    /*    CONTACT   */
+
+
+
+#contact {
+    padding-bottom: 25px;
+}
+
+.contacts {
+    padding-bottom: 35px;
+}
+
+.blocks {
+    float: left;
+    text-align: center;
+}
+
+.blocks .fa {
+    padding-bottom: 15px;
+}
+
+.blocks p {
+    margin-bottom: 0;
+}
+
+
+
+/*   FOOTER   */
+
+
+
+footer {
+    background-color: #434343;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .footer_text {
+    color: #dddddd;
+    margin: 0;
+    font-size: 10px;
+}
+
+
+
+
+/*   Media  */
+
+
+
+
+@media (max-width: 992px) {
+    .header-wrapper .left_part {
+        display: none;
+    }
+    .projects_header p {
+        font-size: 18px;
+    }
+    .event {
+        padding-bottom: 15px;
+    }
+    .header-wrapper .right_part {
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .site-name h1 {
+        font-size: 2em;
+    }
+    .header-wrapper .left_part {
+        display: none;
+    }
+    .person_info {
+        padding: 15px 15px;
+    }
+    #services {
+        padding-top: 5px;
+    }
+    .blocks {
+        margin-bottom: 20px;
+    }
+    .single_project:last-child {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .event_img img {
+        width: 310px;
+        height: 200px;
+    }
+}
